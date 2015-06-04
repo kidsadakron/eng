@@ -1,0 +1,52 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+
+    <title>สื่อการสอนออนไลน์</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/singup.css" rel="stylesheet">
+	<link href="css/lesson.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+    <script src="dist/js/jquery-1.11.2.min.js"></script>
+	
+    <script src="dist/js/bootstrap.min.js"></script>
+<script src="dist/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
+
+      <script>
+	$(document).ready(function(){
+		
+$('#datetimepicker2').datepicker();
+	loadform(1);
+
+
+	});
+	function loadform(isLogin){
+		if(isLogin == 1){
+			$("#formis").load("loginform.php");
+		}else{
+			$("#formis").load("signupform.php");
+		}
+	}
+	</script>
+
+    
+    </head>
+    <body>
+       <input type="text" class="form-control" id="datetimepicker2" />
+    </body>
+</html>

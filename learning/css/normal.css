@@ -1,0 +1,298 @@
+.c1{
+      background-image: url(../img/hipster.jpg);
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  //position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.home1 {
+	background-image : url(../img/h1.jpg);  
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 25%;
+	overflow: hidden;
+	cursor: pointer;
+	background-size: cover;
+	position: absolute;
+	background-attachment: inherit;
+	background-position: center center;
+}
+.home2 {
+	background-image : url(../img/h2.jpg);  
+	top: 25%;
+	left: 0;
+	width: 100%;
+	height: 25%;
+	overflow: hidden;
+	cursor: pointer;
+	background-size: cover;
+	position: absolute;
+	background-attachment: inherit;
+	background-position: center center;
+}
+.home3 {
+	background-image : url(../img/h3.jpg);  
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 25%;
+	overflow: hidden;
+	cursor: pointer;
+	background-size: cover;
+	position: absolute;
+	background-attachment: inherit;
+	background-position: center center;
+}
+.home4 {
+	background-image : url(../img/h4.jpg);  
+	
+	top: 75%;
+	left: 0;
+	width: 100%;
+	height: 25%;
+	overflow: hidden;
+	cursor: pointer;
+	background-size: cover;
+	position: absolute;
+	background-attachment: inherit;
+	background-position: center center;
+}
+.home1-b{
+		position: absolute; 
+		background-color:rgba(0,0,0,0.2);
+		z-index: 1;
+		transition: background-color 0.5s ease;
+			
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		position: absolute;
+		background-attachment: inherit;
+		background-position: center center;
+		
+	}
+	.home1-b:hover {
+		
+		color: black;
+		background-color:rgba(0,0,0,0);
+		  
+  
+	}
+	.title-menu {
+		  position: absolute;
+		  
+		  z-index: 2;
+		  left: 0;
+		  top: 25%;
+		    width: 100%;
+		   color: white;
+		  text-align: center;
+		 background-color:rgba(0,0,0,0.1);
+		  
+		  transition: color 0.5s ease;
+			
+	}
+.btlogout {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 0px;
+	  position: fixed;
+  right: 5px;
+   bottom: initial;
+}
+.nextTest {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 0px;
+	 
+
+   bottom: initial;
+}
+.nextTest:hover, .nextTest:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+.pervadeTest {
+	width: 100px;
+	background: #27AE9F;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+	 
+ float: right;
+   bottom: initial;
+}
+.pervadeTest:hover, .pervadeTest:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+.btlogout:hover, .btlogout:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+.text-name{
+	text-align: center;
+  
+  background: #2A7449;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 2px;
+   position: fixed;
+  right: 105px;
+   bottom: initial;
+}
+@media only screen and (min-width: 768px){
+        .c1{
+            background-image: url(../img/hipster.jpg);
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+      }
+	.btlogout {
+		width: 100px;
+		background: #27AE60;
+		font-weight: bold;
+		color: white;
+		border: 0 none;
+		border-radius: 1px;
+		cursor: pointer;
+		padding: 10px 5px;
+		margin: 10px 0px;
+		  position: fixed;
+	  right: 5px;
+	bottom: initial;
+	}
+	.btlogout:hover, .btlogout:focus {
+		box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+	}
+	.text-name{
+		text-align: center;
+	  
+	  background: #2A7449;
+	  font-weight: bold;
+	  color: white;
+	  border: 0 none;
+	  border-radius: 1px;
+	  cursor: pointer;
+	  padding: 10px 5px;
+	  margin: 10px 2px;
+	   position: fixed;
+	  right: 105px;
+	 bottom: initial;
+	}
+	.home1 {
+	
+		background-image : url(../img/h1.jpg);  
+		top: 0;
+		left: 0;
+		width: 25%;
+		height: 100%;
+		background-size: cover;
+		position: absolute;
+		background-attachment: inherit;
+		background-position: center center;
+	}
+	.home2 {
+		background-image : url(../img/h2.jpg);  
+		top: 0;
+		left: 25%;
+		width: 25%;
+		height: 100%;
+		background-size: cover;
+		position: absolute;
+		background-attachment: inherit;
+		background-position: center center;
+	}
+	.home3 {
+		background-image : url(../img/h3.jpg);
+top: 0;		
+		left: 50%;
+		width: 25%;
+		height: 100%;
+		background-size: cover;
+		position: absolute;
+		background-attachment: inherit;
+		background-position: center center;
+	}
+	.home4 {
+		background-image : url(../img/h4.jpg);  
+		top: 0;
+		left: 75%;
+		width: 25%;
+		height: 100%;
+		background-size: cover;
+		position: absolute;
+		background-attachment: inherit;
+		background-position: center center;
+	}
+	.home1-b{
+		position: absolute; 
+		background-color:rgba(0,0,0,0.6);
+		z-index: 1;
+		transition: background-color 0.5s ease;
+			
+		top: 0;
+		left: 0;
+		
+		height: 100%;
+		background-size: cover;
+		position: absolute;
+		background-attachment: inherit;
+		background-position: center center;
+		
+	}
+	.home1-b:hover {
+		
+		color: black;
+		background-color:rgba(0,0,0,0);
+		  
+  
+	}
+	.title-menu {
+		  position: absolute;
+		  
+		  z-index: 2;
+		  left: 0;
+		  top: 50%;
+		
+		   color: white;
+		  text-align: center;
+		 background-color:rgba(0,0,0,0.1);
+		  
+		  transition: color 0.5s ease;
+			
+	}
+	
+
+}
